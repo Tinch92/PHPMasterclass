@@ -1,9 +1,4 @@
 <?php
-/**
- * Nastavimo ustrezen http header. To lahko preverimo v brskalniku pod network
- * tab v inspectorju. Kakšen je response code brez nastavljenega headerja in
- * kakšen je z nastavljenim headerjem.
- */
 header("HTTP/1.0 404 Not Found");
 ?>
 <!DOCTYPE html>
